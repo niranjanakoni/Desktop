@@ -1,2 +1,48 @@
-<h1>Welcome to <span style="color: rgb(102, 77, 243);">GitHub</span></h1>
-<p>Hi everyone, My name is K Niranjana. I'm currently learning GitHub.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .center-frame {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh; /* reduce height to avoid border covering whole page */
+      border: 2px solid #000;
+      border-radius: 15px; /* add round corners */
+      padding: 45px;  /* increased padding to 45px */
+      box-sizing: border-box;
+      margin: 10vh 0; /* add vertical margins to center the form */
+    }
+
+    .login-form {
+      font-family: Arial, sans-serif;
+    }
+
+    .login-form input {
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+
+    .login-form button {
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="center-frame">
+    <form class="login-form">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username"><br>
+      
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password"><br>
+      
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
+
